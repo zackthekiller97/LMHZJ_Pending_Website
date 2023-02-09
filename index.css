@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.backgroundimage{
+    position: absolute;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    width: 100%
+}
+header {
+    text-align: center;
+    border-bottom: 3px black solid;
+}
+
+.title {
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header h2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.backgroundimage {
+    height: 100vh;
+}
+.post {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: 15px;
+    background: rgba(22, 6, 247, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    color: rgba(245, 202, 11, 0.8)
+}
+
+.date {
+    font-style: italic;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 5px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    height: 10px;
+    color: white;
+}
+
+
